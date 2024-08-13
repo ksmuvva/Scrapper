@@ -11,14 +11,14 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Define the URL and local path
 base_url = https://www.gov.uk/government/collections/country-policy-and-information-notes
-local_path = "C:\\Users\\ksmuv\\Downloads\\Docs_loadder"  # Replace with your actual local path
+local_path = "C:\\Users\\XXXX\\Downloads\\Docs_loadder"  # Replace with your actual local path
 
 # Create the local directory if it doesn't exist
 if not os.path.exists(local_path):
     os.makedirs(local_path)
 
 # Set up Selenium WebDriver
-chromedriver_path = "C:\\Users\\ksmuv\\Downloads\\Docs_loadder\\chromedriver.exe"
+chromedriver_path = "C:\\Users\\xxx\\Downloads\\Docs_loadder\\chromedriver.exe"
 service = Service(chromedriver_path)
 driver = webdriver.Chrome(service=service)
 
